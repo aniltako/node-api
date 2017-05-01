@@ -11,11 +11,12 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "colors": "^1.1.2",
+    "compression": "^1.6.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
     "lodash": "^4.17.4",
-    "mongodb": "^2.2.26",
-    "monk": "^4.0.0",
+    "mongoose": "^4.9.6",
     "morgan": "^1.8.1",
     "serve-favicon": "^2.4.2"
   }
