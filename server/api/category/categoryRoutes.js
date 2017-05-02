@@ -29,4 +29,4 @@ createRoutes(controller, router);
 // 	.put(controller.put)
 // 	.delete(controller.delete)
 
-// module.exports = router;
+module.exports = router;

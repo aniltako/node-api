@@ -1,4 +1,8 @@
 module.exports = {
 	
-	logging : false
+	logging : false,
+	seed: false,
+	db: {
+		url: 'mongodb://localhost/aamshi-prod'
+	}
 }

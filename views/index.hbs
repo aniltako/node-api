@@ -1,2 +1,22 @@
 <h1> {{ title }} </h1>
 <p> welcome to {{ title }} </p>
+
+{{#if condition}}
+	<h3> You are login</h3>
+{{else}}
+	<h3> Not login</h3>
+{{/if}}
+
+{{# each number as |val key| }}
+	value {{key}} :: Key {{val}}
+{{/each}}
+
+{{#with user}}
+<p>{{name}}</p>
+{{#with contact}}
+<span>Twitter: @{{twitter}}</span>
+{{/with}}
+<span>Address: {{address.city}},
+{{/with}}
+{{user.address.state}}</span>
+
